@@ -1,0 +1,6 @@
+create_containers: 0
+default_container_name: docker
+default_container_image: nginx
+default_container_command: sleep 1d
+docker_group: docker
+docker_user: osboxes
