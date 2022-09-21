@@ -43,7 +43,7 @@ cat /etc/hosts                                  # check hosts on /etc/hosts file
 ssh-keygen -f ~/.ssh/key_docker_machines
 ```
 
-## 4. Copy publick key Ansible server to Ansible hosts
+## 4. Copy public key Ansible server to Ansible hosts
 ```
 ssh-copy-id osboxes@docker01
 ssh-copy-id osboxes@docker02
